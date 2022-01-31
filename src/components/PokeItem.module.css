@@ -1,0 +1,46 @@
+
+.img_wrapper {
+  background-color: #F2F2F2;
+}
+.link {
+  text-decoration: none;
+  color: #616161;
+}
+.item:hover {
+  animation: linkjump 0.2s;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+.name, .number, .types {
+  margin: 0;
+  padding: 0 15px;
+}
+.number {
+  color: #949191;
+  font-size: 13px;
+}
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.type, .type2 {
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin: 0 4px;
+}
+.type {
+  background-color: #9BCC50;
+}
+.type2 {
+  background-color: #B97FC9;
+  color: #fff;
+}
+
+@keyframes linkjump {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-10px);}
+  100% {transform: translateY(0px);}
+}

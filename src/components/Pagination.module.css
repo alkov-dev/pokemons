@@ -1,0 +1,20 @@
+.pagination {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.btn ,.active {
+  cursor: pointer;
+  padding: 6px 12px;
+  margin: 0 4px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.btn {
+  background-color: #F2F2F2;
+}
+
+.active {
+  background-color: #616161;
+  color: #fff;
+}

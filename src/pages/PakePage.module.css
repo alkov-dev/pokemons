@@ -1,0 +1,91 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.inner {
+  display: flex;
+}
+.name {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.img {
+  width: 50%;
+  object-fit: contain;
+}
+.info p {
+  color: #616161;
+  font-size: 17px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.types {
+  margin-bottom: 20px;
+}
+.type {
+  margin-bottom: 8px;
+}
+.item_type {
+  background-color: #B97FC9;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.weaknesses {
+  margin-bottom: 20px;
+}
+.weaknesse {
+  margin-bottom: 8px;
+}
+.weaknesses_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item_weaknesse {
+  background-color: #F366B9;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin: 0 5px 5px;
+}
+.evolutions_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.evolutions {
+  background-color: #F2F2F2;
+  padding: 15px 80px;
+  border-radius: 5px;
+}
+.evolutions h4 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.evolutions p {
+  margin: 0;
+}
+.go_back {
+  padding: 5px 12px;
+  background-color: #F2F2F2;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+}
+.arrow_left {
+  width: 30px;
+  height: 30%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+@media (max-width: 600px) {
+  .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
